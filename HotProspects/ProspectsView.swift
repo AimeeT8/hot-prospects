@@ -65,6 +65,11 @@ struct ProspectsView: View {
                             prospect.isContacted.toggle()
                         }
                         .tint(.green)
+                        
+                        Button("Remind Me", systemImage: "bell") {
+                            addNotification(for: prospect)
+                        }
+                        .tint(.orange)
                     }
               
                 }
