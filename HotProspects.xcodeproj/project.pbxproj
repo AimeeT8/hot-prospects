@@ -15,6 +15,8 @@
 		9CAB12542C4C395500D9E8B7 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAB12532C4C395500D9E8B7 /* MeView.swift */; };
 		9CAB12562C4C3C8A00D9E8B7 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAB12552C4C3C8A00D9E8B7 /* Prospect.swift */; };
 		9CAB12592C4C52FF00D9E8B7 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 9CAB12582C4C52FF00D9E8B7 /* CodeScanner */; };
+		9CABE4102C4EA5B4007EC734 /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CABE40F2C4EA5B4007EC734 /* EditingView.swift */; };
+		9CABE4122C4EA9ED007EC734 /* SortableProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CABE4112C4EA9ED007EC734 /* SortableProspectsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9CAB12512C4C392C00D9E8B7 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
 		9CAB12532C4C395500D9E8B7 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		9CAB12552C4C3C8A00D9E8B7 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		9CABE40F2C4EA5B4007EC734 /* EditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingView.swift; sourceTree = "<group>"; };
+		9CABE4112C4EA9ED007EC734 /* SortableProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortableProspectsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				9CAB12432C4C38BA00D9E8B7 /* HotProspectsApp.swift */,
 				9CAB12452C4C38BA00D9E8B7 /* ContentView.swift */,
 				9CAB12512C4C392C00D9E8B7 /* ProspectsView.swift */,
+				9CABE40F2C4EA5B4007EC734 /* EditingView.swift */,
+				9CABE4112C4EA9ED007EC734 /* SortableProspectsView.swift */,
 				9CAB12532C4C395500D9E8B7 /* MeView.swift */,
 				9CAB12472C4C38BD00D9E8B7 /* Assets.xcassets */,
 				9CAB12492C4C38BD00D9E8B7 /* Preview Content */,
@@ -155,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CAB12542C4C395500D9E8B7 /* MeView.swift in Sources */,
+				9CABE4122C4EA9ED007EC734 /* SortableProspectsView.swift in Sources */,
 				9CAB12562C4C3C8A00D9E8B7 /* Prospect.swift in Sources */,
 				9CAB12522C4C392C00D9E8B7 /* ProspectsView.swift in Sources */,
+				9CABE4102C4EA5B4007EC734 /* EditingView.swift in Sources */,
 				9CAB12462C4C38BA00D9E8B7 /* ContentView.swift in Sources */,
 				9CAB12442C4C38BA00D9E8B7 /* HotProspectsApp.swift in Sources */,
 			);

@@ -5,6 +5,7 @@
 //  Created by Aimee Temple on 2024-07-20.
 //
 
+import Foundation
 import SwiftData
 
 
@@ -13,6 +14,7 @@ class Prospect {
     var name: String
     var emailAddress: String
     var isContacted: Bool
+    var dateAdded = Date.now
     
     
     init(name: String, emailAddress: String, isContacted: Bool) {
